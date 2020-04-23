@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<style> 
+  h1 {
+    font-family: Lato;
+  }
+  .subtitle {
+    font-family: 'Karla', sans-serif;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf0ff;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+  }
+  #img-div {
+    background-color: white;
+    padding: 25px;
+    margin: 0px 100px 0px 100px;
+  }
+  #image {
+    max-width: 100%;
+  }
+  #img-caption{
+    margin: 0px 75px 0px 75px;
+  }
+  #tribute-info {
+    margin: 0px 100px 0px 100px;
+    text-align: left;
+  }
+  li {
+    margin: 30px 0px 20px 0px;
+  }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+  <header>
+  <h1 id = "title">Ada Lovelace</h1>
+  <p class = "subtitle">The world's first computer programmer</p>
+  </header>
+</head>
+<body id = "main">
+  <div id="img-div">
+    <img id = "image" src="http://farm8.staticflickr.com/7205/6788394008_1b16a0a585_o.jpg" alt="A picture of Ada Lovelace"/>
+    <figcaption id ="img-caption">Lady Ada King, Countess of Lovelace—better known as Ada Lovelace—described herself as an analyst and metaphysician in her only published article.</figcaption>
+  </div>
+   
+  <div id="tribute-info">
+    <ul id = "tribute-list">
+      <li><strong>1815</strong> - Ada Lovelace was born on December 10 in England</li>
+      <li><strong>Mid-1800s</strong> - Multiple tutors taught her mathematics and science, which was completely out of the ordinary for the time. Her mother believed that engaging in rigorous studies would prevent Ada from developing her father's moddy and unpredictable temperament (they didn't have a happy marriage). She showed a talent for numbers and language</li>
+      <li><strong>1832</strong> - Ada met Charles Babbage, a mathematician and inventor, known as the father of the computer.</li>
+      <li><strong>1835</strong> - Ada married William King who became the Earl of Lovelave three years later. Ada and her husband socialized with many of the interesting minds of the times, including scientist Michael Faraday and writer Charles Dickens.</li>
+      <li><strong>1835-1851</strong> - He invented the analytical engine and Lovelace was asked to translate an article on it. She describes how codes could be created for the device to handle letters and symbols along with numbers. She theorized many process such as looping that are used in today's coding languages. In her later years, she tried to develop mathematical schemes for winning at gambling but this put her in financial peril.</li>
+  <li><strong>1852</strong> - Ada died from uterine cancer after developing many health problems throughout her life including cholera in 1837</li>
+    </ul> 
+  </div> 
+<p>To learn more about Ada Lovelace, <a id = "tribute-link" target="_blank" href="https://www.biography.com/scholar/ada-lovelace">click here.<a></p>
+  
+</body>
+</html>
